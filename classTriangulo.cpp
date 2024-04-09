@@ -18,7 +18,9 @@ int main () {
 
     } else if (((num1 == num2)&& (num1 == num2) != num3) || ((num1 == num3)&& (num1 == num3)!= num2) || ((num2 && num3)&& (num2 && num3) != num1)){
         printf("o triangulo é isósceles.\n");
-    } else {
+    
+    
+    } else if ((num1 != num2) && (num1 != num3) && (num2 != num3)) {
         printf("o triangulo é Escaleno.\n");
     }
 
